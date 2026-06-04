@@ -19,7 +19,7 @@ RUN /opt/venv/bin/pip install --no-cache-dir -r requirements.txt
 
 # 5. Copy the rest of your project files
 # Note: If 'test-django-pro' contains 'manage.py', we copy its CONTENTS to /app
-COPY test-django-pro/ /app/
+COPY test_django_pro/ /app/
 
 # 6. Expose the Django port
 EXPOSE 8000
